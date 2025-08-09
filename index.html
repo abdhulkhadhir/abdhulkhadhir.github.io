@@ -4,85 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Abdhul Khadhir Seyed Hydroos - Traffic & Transportation Engineer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
-        <div class="container">
-            <div class="navbar-brand">
-                <h3>Dr. Abdhul Khadhir</h3>
+        <div class="container navbar-container">
+            <a href="#" class="navbar-brand">
+                <h3>Dr. Abdhul K.</h3>
+            </a>
+            <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <i class='bx bx-menu'></i>
             </div>
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" id="navbar-nav">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#publications">Publications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="mobile-menu-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-background">
-            <img src="https://pplx-res.cloudinary.com/image/upload/v1750394613/pplx_project_search_images/5469c8206ef9f3942abe9a52f91852e4c098107f.jpg" alt="Brisbane Highway Infrastructure">
-        </div>
-        <div class="hero-content">
-            <div class="container">
-                <div class="hero-text">
-                    <div class="profile-image">
-                        <div class="profile-placeholder">
-                            <span>AK</span>
-                        </div>
-                    </div>
-                    <h1>Dr. Abdhul Khadhir Seyed Hydroos</h1>
-                    <h2>Traffic & Transportation Engineer | PhD</h2>
-                    <p>Optimizing transport systems through innovative engineering solutions</p>
-                    <div class="location">
-                        <span>📍 Brisbane, Queensland, Australia</span>
-                    </div>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn--primary">View Portfolio</a>
-                        <a href="#contact" class="btn btn--outline">Contact Me</a>
-                    </div>
-                </div>
+        <div class="hero-background"></div>
+        <div class="container hero-content">
+            <div class="profile-image">
+                <span>AK</span>
+            </div>
+            <h1>Dr. Abdhul Khadhir Seyed Hydroos</h1>
+            <h2>Traffic & Transportation Engineer | PhD</h2>
+            <p class="hero-subtitle">Optimizing transport systems through innovative engineering solutions</p>
+            <div class="location">
+                <i class='bx bxs-map'></i>
+                <span>Brisbane, Queensland, Australia</span>
+            </div>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn--primary">View Portfolio</a>
+                <a href="#contact" class="btn btn--outline">Contact Me</a>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <section id="about" class="about scroll-reveal">
         <div class="container">
             <div class="section-header">
-                <h2>About Me</h2>
+                <h2><i class='bx bxs-user'></i> About Me</h2>
                 <p>Passionate about transforming transportation systems</p>
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I am a passionate traffic and transportation engineer with a PhD in Transportation Engineering, eager to tackle complex challenges across all modes of road transport. With hands-on experience in real-time traffic operations and expertise in tools like Aimsun, SIDRA, and PTV VISSIM, I focus on optimizing road capacity, reducing congestion, and developing smarter solutions to improve safety and efficiency for both private vehicles and public transport.</p>
-                    <div class="about-highlights">
-                        <div class="highlight-item">
-                            <h4>🎯 Expertise</h4>
-                            <p>Traffic simulation, signal optimization, and intelligent transportation systems</p>
-                        </div>
-                        <div class="highlight-item">
-                            <h4>🔬 Research Focus</h4>
-                            <p>Weather-responsive traffic control and motorway optimization algorithms</p>
-                        </div>
-                        <div class="highlight-item">
-                            <h4>🤝 Collaboration</h4>
-                            <p>Working with TMR, Transmax, and industry partners on innovative solutions</p>
-                        </div>
-                    </div>
+                    <p>I am a passionate traffic and transportation engineer with a PhD, eager to tackle complex challenges across all modes of road transport. With hands-on experience in real-time traffic operations and expertise in tools like Aimsun, SIDRA, and VISSIM, I focus on optimizing road capacity, reducing congestion, and developing smarter solutions to improve safety and efficiency for both private vehicles and public transport.</p>
                 </div>
                 <div class="about-image">
                     <img src="https://pplx-res.cloudinary.com/image/upload/v1750394613/pplx_project_search_images/ccb3271735f47cda684eaf95fbbf822e3791af80.jpg" alt="Smart Traffic Management Systems">
@@ -91,101 +71,87 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
+    <section id="experience" class="experience scroll-reveal">
         <div class="container">
             <div class="section-header">
-                <h2>Professional Experience</h2>
-                <p>Career progression in traffic and transportation engineering</p>
+                <h2><i class='bx bxs-briefcase-alt-2'></i> Professional Experience</h2>
+                 <p>Career progression in traffic and transportation engineering</p>
             </div>
             <div class="timeline">
                 <div class="timeline-item">
-                    <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3>Research Fellow</h3>
                         <h4>Queensland University of Technology</h4>
                         <span class="timeline-date">December 2022 - Present</span>
-                        <p class="timeline-location">Brisbane, QLD</p>
                         <ul>
-                            <li>Project manager for multi-year TMR Transport Academic Partnership project on weather responsive variable speed limit</li>
-                            <li>Project manager for iMOVE CRC project on optimising motorway control algorithms with TMR and Transmax</li>
-                            <li>Led independent and collaborative research projects in traffic and transportation engineering</li>
-                            <li>Analyzed large traffic datasets to identify trends and develop data-driven solutions</li>
-                            <li>Published research findings in peer-reviewed journals and presented at international conferences</li>
+                            <li>Project manager for TMR project on weather responsive variable speed limits.</li>
+                            <li>Project manager for iMOVE CRC project on optimising motorway control algorithms.</li>
+                            <li>Published research findings in peer-reviewed journals and presented at conferences.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="timeline-item">
-                    <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <h3>Research Assistant and Sessional Academic</h3>
                         <h4>Queensland University of Technology</h4>
                         <span class="timeline-date">July 2019 - December 2022</span>
-                        <p class="timeline-location">Brisbane, QLD</p>
                         <ul>
-                            <li>Assisted in preparation and organization of course materials and curriculum</li>
-                            <li>Mentored undergraduate and postgraduate students in research work</li>
-                            <li>Actively participated in traffic and transportation engineering research projects</li>
+                            <li>Assisted in preparation and organization of course materials and curriculum.</li>
+                            <li>Mentored undergraduate and postgraduate students in their research work.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
+                     <div class="timeline-content">
                         <h3>Research and Teaching Assistant</h3>
                         <h4>Indian Institute of Technology Madras</h4>
                         <span class="timeline-date">July 2016 - July 2019</span>
-                        <p class="timeline-location">Chennai, India</p>
                         <ul>
-                            <li>Provided support for Traffic Flow Theory, Traffic Engineering Management, and ITS courses</li>
-                            <li>Engaged in traffic and transportation engineering research projects</li>
-                            <li>Assisted in data collection, analysis, and reporting</li>
+                           <li>Provided support for Traffic Flow Theory, Traffic Engineering Management, and ITS courses.</li>
+                           <li>Engaged in research projects, assisting in data collection, analysis, and reporting.</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Education Section -->
-    <section id="education" class="education">
+    
+    <section id="education" class="education scroll-reveal">
         <div class="container">
             <div class="section-header">
-                <h2>Education</h2>
-                <p>Academic qualifications and achievements</p>
+                 <h2><i class='bx bxs-graduation'></i> Education</h2>
+                 <p>Academic qualifications and achievements</p>
             </div>
             <div class="education-grid">
                 <div class="education-item">
-                    <div class="education-icon">🎓</div>
+                    <div class="education-icon"><i class='bx bxs-award'></i></div>
                     <h3>Doctor of Philosophy in Civil Engineering</h3>
                     <h4>Queensland University of Technology</h4>
                     <span class="education-year">2023</span>
-                    <p class="education-grade">Grade: 7/7</p>
-                    <p class="education-thesis">Thesis: "Development of an Optimal Traffic Signal Control Strategy for Heterogeneous Less Lane Disciplined Traffic Conditions"</p>
+                    <p>Thesis on optimal traffic signal control for heterogeneous traffic.</p>
                 </div>
                 <div class="education-item">
-                    <div class="education-icon">🎓</div>
+                    <div class="education-icon"><i class='bx bxs-award'></i></div>
                     <h3>Dual Degree - Master/PhD Transportation Engineering</h3>
                     <h4>Indian Institute of Technology, Madras</h4>
                     <span class="education-year">2022</span>
-                    <p class="education-grade">Grade: 9.1/10</p>
+                    <p>Grade: 9.1/10</p>
                 </div>
                 <div class="education-item">
-                    <div class="education-icon">🎓</div>
+                    <div class="education-icon"><i class='bx bxs-award'></i></div>
                     <h3>Bachelor of Civil Engineering</h3>
                     <h4>National Institute of Technology, Calicut</h4>
                     <span class="education-year">2015</span>
-                    <p class="education-grade">Grade: 7.29/10</p>
+                     <p>Grade: 7.29/10</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
+    <section id="projects" class="projects scroll-reveal">
         <div class="container">
             <div class="section-header">
-                <h2>Featured Projects</h2>
+                <h2><i class='bx bxs-flask'></i> Featured Projects</h2>
                 <p>Innovative solutions in traffic and transportation engineering</p>
             </div>
             <div class="projects-grid">
@@ -194,13 +160,10 @@
                         <img src="https://pplx-res.cloudinary.com/image/upload/v1750394614/pplx_project_search_images/c5481c5b67a2d3fe544486d70696b0c61a7a2003.jpg" alt="Weather Responsive Variable Speed Limit">
                     </div>
                     <div class="project-content">
-                        <h3>Weather Responsive Variable Speed Limit</h3>
-                        <span class="project-duration">March 2025 – Present</span>
-                        <p>Conducting comprehensive review of global practices in weather responsive variable speed limits and developing algorithms for Queensland</p>
+                        <h3>Weather Responsive VSL</h3>
+                        <p>Developing weather-responsive variable speed limit algorithms for Queensland motorways.</p>
                         <div class="project-technologies">
-                            <span>STREAMS Algorithm</span>
-                            <span>Weather Data Analysis</span>
-                            <span>Traffic Control</span>
+                            <span>STREAMS</span><span>Data Analysis</span><span>Traffic Control</span>
                         </div>
                     </div>
                 </div>
@@ -209,13 +172,10 @@
                         <img src="https://pplx-res.cloudinary.com/image/upload/v1750394614/pplx_project_search_images/b054b83ef674bf8148202d850aba420d1732554f.jpg" alt="Motorway Control Algorithms">
                     </div>
                     <div class="project-content">
-                        <h3>Optimising Motorway Control Algorithms</h3>
-                        <span class="project-duration">February 2023 – March 2025</span>
-                        <p>Comprehensive reviews of TMR's motorway control algorithms, integrating loop detector and vehicle trajectory data</p>
+                        <h3>Optimising Motorway Control</h3>
+                        <p>Reviewing TMR's motorway control algorithms using loop detector and vehicle trajectory data.</p>
                         <div class="project-technologies">
-                            <span>Loop Detectors</span>
-                            <span>Vehicle Trajectory Data</span>
-                            <span>Control Algorithm Optimization</span>
+                            <span>Algorithm Optimization</span><span>Trajectory Data</span>
                         </div>
                     </div>
                 </div>
@@ -224,30 +184,10 @@
                         <img src="https://pplx-res.cloudinary.com/image/upload/v1750394613/pplx_project_search_images/db5c4792f2992f13dd88c738b48912c31d4d7ccf.jpg" alt="Next Generation Traffic Sensors">
                     </div>
                     <div class="project-content">
-                        <h3>Next Generation Traffic Sensors</h3>
-                        <span class="project-duration">January 2021 - February 2022</span>
-                        <p>Evaluated vehicle detection technologies for Smart Motorway suitability commissioned by TMR South Coast</p>
+                        <h3>Next Gen Traffic Sensors</h3>
+                        <p>Evaluated various vehicle detection technologies for Smart Motorway suitability.</p>
                         <div class="project-technologies">
-                            <span>Loop Detectors</span>
-                            <span>Infrared Detectors</span>
-                            <span>Radar Sensors</span>
-                            <span>Data Visualization</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://pplx-res.cloudinary.com/image/upload/v1750394613/pplx_project_search_images/97a1702eb49caa9c2ec5b27670f5845aad03be1d.jpg" alt="Enhanced Traffic Mobility">
-                    </div>
-                    <div class="project-content">
-                        <h3>Enhanced Traffic Mobility using Signal Improvements</h3>
-                        <span class="project-duration">March 2017 - March 2019</span>
-                        <p>Student lead for Larsen & Toubro CSR project focused on enhancing traffic mobility through intersection improvements</p>
-                        <div class="project-technologies">
-                            <span>Signal Timing</span>
-                            <span>Intersection Design</span>
-                            <span>Traffic Modeling</span>
-                            <span>Geometric Design</span>
+                            <span>Infrared</span><span>Radar</span><span>Loop Detectors</span>
                         </div>
                     </div>
                 </div>
@@ -255,217 +195,104 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
+    <section id="skills" class="skills scroll-reveal">
         <div class="container">
             <div class="section-header">
-                <h2>Technical Skills</h2>
+                <h2><i class='bx bxs-cog'></i> Technical Skills</h2>
                 <p>Expertise in traffic engineering and data analysis</p>
             </div>
-            <div class="skills-content">
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>Traffic Simulation & Modeling</h3>
-                        <div class="skill-items">
-                            <div class="skill-item">
-                                <span>Aimsun</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 95%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span>SIDRA Intersection</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 90%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span>PTV VISSIM</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 85%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Data Analysis & Programming</h3>
-                        <div class="skill-items">
-                            <div class="skill-item">
-                                <span>Python</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 90%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span>R</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 85%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span>Interactive Dashboards</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 80%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Traffic Management Systems</h3>
-                        <div class="skill-items">
-                            <div class="skill-item">
-                                <span>STREAMS ITS Platform</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 85%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span>Signal Timing Design</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 95%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Professional Skills</h3>
-                        <div class="skill-items">
-                            <div class="skill-item">
-                                <span>Project Management</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 90%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span>Technical Communication</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 95%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <span>Research & Development</span>
-                                <div class="skill-level">
-                                    <div class="skill-progress" style="width: 90%"></div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Traffic Simulation & Modeling</h3>
+                    <div class="skills-tags">
+                        <span>Aimsun</span><span>SIDRA Intersection</span><span>PTV VISSIM</span>
                     </div>
                 </div>
-                <div class="skills-image">
-                    <img src="https://pplx-res.cloudinary.com/image/upload/v1749189859/pplx_project_search_images/3ddca37cea7c126cae07191e3a88b16588775950.jpg" alt="Data Analysis and Visualization">
+                <div class="skill-category">
+                    <h3>Data Analysis & Programming</h3>
+                    <div class="skills-tags">
+                        <span>Python</span><span>R</span><span>Interactive Dashboards</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Traffic Management Systems</h3>
+                    <div class="skills-tags">
+                        <span>STREAMS ITS Platform</span><span>Signal Timing Design</span><span>ITS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Professional Skills</h3>
+                    <div class="skills-tags">
+                        <span>Project Management</span><span>Technical Communication</span><span>Research & Development</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Publications Section -->
-    <section id="publications" class="publications">
+    <section id="publications" class="publications scroll-reveal">
         <div class="container">
             <div class="section-header">
-                <h2>Publications & Research</h2>
-                <p>Academic contributions to traffic and transportation engineering</p>
+                <h2><i class='bx bxs-book-content'></i> Publications & Certifications</h2>
+                <p>Academic contributions and professional credentials</p>
             </div>
             <div class="publications-content">
-                <div class="publications-list">
-                    <div class="publication-item">
-                        <h3>Analysis of GPS Based Bus travel Time Data and its use for APTS Applications</h3>
-                        <p class="publication-authors">Khadhir, A., B.A. Kumar, L. Vanajakshi</p>
-                        <p class="publication-journal">Journal of Intelligent Transportation Systems, 2020, 25(1), 58-76</p>
-                        <a href="https://doi.org/10.1080/15472450.2020.1754818" target="_blank" class="publication-link">View Publication</a>
-                    </div>
-                    <div class="publication-item">
-                        <h3>Simultaneous prediction of midblock and intersection traffic states on urban arterials</h3>
-                        <p class="publication-authors">Khadhir, A., L. Vanajakshi, A. Bhaskar</p>
-                        <p class="publication-journal">Journal of Transportation Engineering, Part A: Systems, 2022, 148(10)</p>
-                        <a href="https://doi.org/10.1061/JTEPBS.0000731" target="_blank" class="publication-link">View Publication</a>
-                    </div>
-                    <div class="publication-item">
-                        <h3>Development of a Theoretical Delay Model for Heterogeneous and Less Lane-Disciplined Traffic Conditions</h3>
-                        <p class="publication-authors">Khadhir, A., A. Bhaskar, L. Vanajakshi, M. Haque</p>
-                        <p class="publication-journal">Journal of Advanced Transportation, 2022</p>
-                        <a href="https://doi.org/10.1155/2022/3260945" target="_blank" class="publication-link">View Publication</a>
-                    </div>
+                <div class="publication-item">
+                    <p><a href="https://doi.org/10.1080/15472450.2020.1754818" target="_blank">Analysis of GPS Based Bus travel Time Data and its use for APTS Applications</a> | Journal of Intelligent Transportation Systems, 2020</p>
                 </div>
-                <div class="patent-section">
-                    <h3>Patent</h3>
-                    <div class="patent-item">
-                        <h4>Traffic signal control</h4>
-                        <p class="patent-inventors">Vanajakshi, L., Mattungal, V. S., & Seyed Hydroos, A. K.</p>
-                        <p class="patent-details">Indian Patent No. 536088, 2023, Indian Patent Office</p>
-                    </div>
+                <div class="publication-item">
+                    <p><a href="https://doi.org/10.1061/JTEPBS.0000731" target="_blank">Simultaneous prediction of midblock and intersection traffic states on urban arterials</a> | Journal of Transportation Engineering, 2022</p>
                 </div>
-                <div class="certifications-section">
-                    <h3>Certifications</h3>
-                    <div class="certifications-list">
-                        <div class="certification-item">
-                            <h4>SIDRA Intermediate and Advanced</h4>
-                            <p>SIDRA Solutions, 2019</p>
-                        </div>
-                        <div class="certification-item">
-                            <h4>Associate Fellow of the Higher Engineering Academy (AFHEA)</h4>
-                            <p>Higher Engineering Academy, Advance HE, UK, 2021</p>
-                        </div>
-                    </div>
+                 <div class="publication-item">
+                    <p><a href="https://doi.org/10.1155/2022/3260945" target="_blank">Development of a Theoretical Delay Model for Heterogeneous Traffic Conditions</a> | Journal of Advanced Transportation, 2022</p>
+                </div>
+                <div class="patent-item">
+                   <p><strong>Patent:</strong> Traffic signal control (Indian Patent No. 536088)</p>
+                </div>
+                 <div class="certifications-list">
+                    <p><strong>Certifications:</strong> SIDRA Intermediate & Advanced | Associate Fellow of the HEA (AFHEA)</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="contact-background">
-            <img src="https://pplx-res.cloudinary.com/image/upload/v1750394613/pplx_project_search_images/af43275d61392a3df0fbc3574457a50c691a98b2.jpg" alt="Brisbane Highway">
-        </div>
+    <section id="contact" class="contact scroll-reveal">
         <div class="container">
             <div class="section-header">
-                <h2>Get In Touch</h2>
-                <p>Let's discuss opportunities in traffic and transportation engineering</p>
+                <h2><i class='bx bxs-paper-plane'></i> Get In Touch</h2>
+                <p>Let's connect and discuss opportunities</p>
             </div>
             <div class="contact-content">
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" id="name" name="name" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" id="email" name="email" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject" class="form-label">Subject</label>
-                            <input type="text" id="subject" name="subject" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
-                    </form>
-                </div>
                 <div class="contact-info">
-                    <div class="contact-item">
-                        <h4>📧 Email</h4>
-                        <p>abdhu02@gmail.com</p>
-                    </div>
-                    <div class="contact-item">
-                        <h4>📱 Phone</h4>
-                        <p>+61 475637111</p>
-                    </div>
-                    <div class="contact-item">
-                        <h4>🔗 LinkedIn</h4>
-                        <p><a href="https://www.linkedin.com/in/khadhir" target="_blank">linkedin.com/in/khadhir</a></p>
-                    </div>
-                    <div class="contact-item">
-                        <h4>📍 Location</h4>
-                        <p>Brisbane, Queensland, Australia</p>
-                    </div>
+                    <a href="mailto:abdhu02@gmail.com" class="contact-item">
+                        <i class='bx bxs-envelope'></i>
+                        <span>abdhu02@gmail.com</span>
+                    </a>
+                     <a href="tel:+61475637111" class="contact-item">
+                        <i class='bx bxs-phone'></i>
+                        <span>+61 475637111</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/khadhir" target="_blank" class="contact-item">
+                        <i class='bx bxl-linkedin-square'></i>
+                        <span>linkedin.com/in/khadhir</span>
+                    </a>
                 </div>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" class="form-control" required placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" class="form-control" required placeholder="Email">
+                    </div>
+                    <div class="form-group form-group-full">
+                        <textarea id="message" name="message" rows="5" class="form-control" required placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary">Send Message</button>
+                </form>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <p>&copy; 2025 Dr. Abdhul Khadhir Seyed Hydroos. All rights reserved.</p>
